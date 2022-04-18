@@ -1,0 +1,108 @@
+h1 {
+    color: chartreuse;
+    font-family:'Kanit', sans-serif;
+}
+
+.rounded {
+    border-radius: 50px;
+}
+
+.titulo{
+    background-color: indigo;
+    color: chartreuse;
+}
+
+.textoGrande {
+    font-size: 50px
+}
+
+.centrar {
+    text-align: center;
+}
+
+.smileyFace {
+    background-image: 
+    url(https://i.pinimg.com/originals/d4/d9/0e/d4d90e96781f5ed418d142dbfd07702d.jpg)
+    ;
+    background-repeat: repeat;
+}
+
+h2 {
+    color: chartreuse;
+    background-color: indigo;
+    font-family:'Kanit', sans-serif;
+}
+h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+ol {
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+}
+
+.parrafos {background-color: white;}
+
+.enLinea {
+    display: inline-block;
+}
+
+.Menu {
+    display:inline-block    ;
+    padding: 15px 150px 36px 35px;
+    margin: 15 10 15 10;
+    font-size: larger;
+    font-family:'Kanit', sans-serif;
+}
+
+
+.flex-containerROW{
+    display: flex;
+    flex-direction: row;
+}
+
+.columnaFlex {
+display: flex;
+flex-direction: column;
+}
+
+
+.justificadoFlex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width: 767px ) {
+    .gridContainer {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "menuPpal"
+        "mainBody"
+        "footer";
+        grid-template-columns: 200px;
+        grid-template-rows: 200px ;
+    }
+
+    header{
+        grid-area: header;
+        display:flex;
+        justify-content: center;
+      
+    }
+    
+    .menuPpal {
+        grid-area: menuPpal;
+        display: block;
+    }
+    .mainBody {
+        grid-area: mainBody;
+        display: flex;
+    }    
+    footer {
+        grid-area: footer;
+        display: flex;
+    }
+}

@@ -1,0 +1,24 @@
+h1 {
+    color: chartreuse;
+    background-color: indigo;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+}
+
+.smileyFace {
+    background-image: 
+    url(https://i.pinimg.com/originals/d4/d9/0e/d4d90e96781f5ed418d142dbfd07702d.jpg)
+    ;
+    background-repeat: repeat;
+}
+
+#cuadriculaEventos{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+    
+.alineacion {
+    display: grid;  
+    justify-content: center;
+}
