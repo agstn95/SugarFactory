@@ -1,0 +1,42 @@
+h1 {
+    color: chartreuse;
+    font-family:'Kanit', sans-serif;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.fondoCoral{
+    background-color: indigo;
+    color: chartreuse;
+}
+
+.textoGrande {
+    font-size: 50px
+}
+
+.centrar {
+    text-align: center;
+}
+
+.smileyFace {
+    background-image: 
+    url(https://i.pinimg.com/originals/d4/d9/0e/d4d90e96781f5ed418d142dbfd07702d.jpg)
+    ;
+    background-repeat: repeat;
+}
+
+h2 {
+    color: chartreuse;
+    background-color: indigo;
+    font-family:'Kanit', sans-serif;
+}
+h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+ol {
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+}
