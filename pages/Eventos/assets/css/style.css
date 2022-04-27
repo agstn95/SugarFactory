@@ -1,24 +1,19 @@
 h1 {
-    color: chartreuse;
-    background-color: indigo;
-    font-family:'Kanit', sans-serif;
-    border-radius: 10px;
-}
+  color: chartreuse;
+  background-color: indigo;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 10px; }
 
 .smileyFace {
-    background-image: 
-    url(https://i.pinimg.com/originals/d4/d9/0e/d4d90e96781f5ed418d142dbfd07702d.jpg)
-    ;
-    background-repeat: repeat;
-}
+  background-image: url("https://i.pinimg.com/564x/5f/0c/0c/5f0c0c253f37803e39f22138a4e1e55d.jpg");
+  height: 400px;
+  background-repeat: repeat; }
 
-#cuadriculaEventos{
-    display: grid;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-    
+#cuadriculaEventos {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px; }
+
 .alineacion {
-    display: grid;  
-    justify-content: center;
-}
+  display: grid;
+  justify-content: center; }
