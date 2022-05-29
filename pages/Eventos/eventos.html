@@ -23,14 +23,52 @@
   
   <h1 class="p-3 mb-2 bg-gradient-info text-white flex-row text-center">Eventos</h1>
 
-  <div class="d-flex justify-content-around p-3 mb-2 bg-dark text-white rounded">
 
-      <div class="p-2"><a href="/index.html">Principal</a></div>
-      <div class="p-2"><a href="/pages/Novedades/novedades.html">Novedades</a></div>
-      <div class="p-2"><a href="/pages/Quienes somos/quienes somos.html">¿Quienes somos?</a></div>
-      <div class="p-2"><a href="/pages/Contacto/contacto.html">Contacto</a></div>
-      
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded justify-content-center">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Principal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"
+                        href="/pages/Quienes somos/quienes somos.html">¿Quienes somos?</a>
+                </li>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/pages/Novedades/novedades.html">Novedades</a>
+                        </li>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="/pages/Contacto/contacto.html">Contacto</a>
+                                </li>
+
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </ul>
+
+
+
+
+                        </div>
+                </div>
+        </div>
+    </div>
+    </div>
+</nav>
 
 
 
